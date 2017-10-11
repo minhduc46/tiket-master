@@ -1,0 +1,149 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+div, p, b {
+    font-family: "Arial", sans-serif;
+    font-size: 10pt;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+table tbody tr {
+    border-bottom: 1px dotted;
+}
+
+table tbody td {
+    text-align: center;
+}
+
+.order-info-item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.order-info {
+    margin-top: 40px;
+}
+
+.company-information {
+    width: 60%;
+}
+
+.event-information {
+    text-align: right;
+    width: 40%;
+}
+
+.customer-information {
+    display: inline-block;
+    margin: 30px 0;
+    width: 100%;
+}
+
+.text-bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.company-info {
+    padding-left: 10px;
+}
+
+.company-info > p {
+    margin: 0;
+}
+
+.invoice-box .dot {
+    border-bottom: 2px dotted;
+    border-top: 2px dotted;
+    float: left;
+    height: 20px;
+    margin-top: -5px;
+    width: 100%;
+}
+
+.note span {
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+}
+
+.invoice-box {
+    color: #000;
+    font-family: "Arial", sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+.invoice-box .heading {
+    background: #e6e6e6 none repeat scroll 0 0;
+}
+
+.invoice-box th {
+    padding: 10px 5px;
+    min-width: 200px;
+}
+
+.invoice-box p.col8 {
+    width: 60%;
+}
+
+.invoice-box p.col4 {
+    width: 40%;
+    text-align: right;
+}
+
+.logo-company {
+    width: 70px;
+}
+
+.invoice-box p {
+    margin: 0;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.footer {
+    border-top: 1px dotted;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.hr td {
+    padding: 0 !important;
+}
+
+.hr hr.total {
+    border: 1px dashed #929292;
+
+}
+
+.hr hr {
+    margin: 0;
+    border: 1px dotted #ddd;
+}

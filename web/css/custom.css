@@ -1,0 +1,42 @@
+.page-content .row .dropzone{
+    background: none;
+    border: none;
+}
+.page-content .row .dropzone .dz-default.dz-message{
+    height: auto;
+    position: relative;
+    top:0;
+    margin: 0;
+    border: dotted 1px;
+    border-radius: 40px;
+}
+.form-group .dropzone-previews{
+    text-align: center;
+}
+.page-content .dropzone .dz-preview .dz-details, .dropzone-previews .dz-preview .dz-details{
+    width: 150px;
+    height: 180px;
+}
+.page-content .dropzone .dz-preview .dz-details img,
+.page-content .dropzone-previews .dz-preview .dz-details img{
+    width: 150px;
+    height: 180px
+}
+.size-label{
+    line-height: 28px;
+}
+.page-content .dropzone .dz-preview .dz-details .dz-size,
+.page-content .dropzone-previews .dz-preview .dz-details .dz-size{
+    float: right;
+    position: initial;
+}
+.table-striped.table-bordered>tbody>tr>th{
+    width: 20%;
+    vertical-align: middle;
+
+}
+.table-striped.table-bordered>tbody>tr>td{
+}
+.field-employee-image{
+    display: none;
+}

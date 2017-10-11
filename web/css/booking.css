@@ -1,0 +1,176 @@
+.str0 {
+    stroke: #ED3237;
+    stroke-width: 6.66535
+}
+
+.fil9 {
+    fill: none
+}
+
+.fil2 {
+    fill: #00A859
+}
+
+.fil5 {
+    fill: #00AFEF
+}
+
+.fil3 {
+    fill: #3E4095
+}
+
+.fil8 {
+    fill: #96989A
+}
+
+.fil4 {
+    fill: #A8518A
+}
+
+.fil1 {
+    fill: #EC268F
+}
+
+.fil0 {
+    fill: #ED3237
+}
+
+.fil6 {
+    fill: #F58634
+}
+
+.fil7 {
+    fill: #FFCC29
+}
+
+.fil10 {
+    fill: #00AFEF;
+    fill-rule: nonzero
+}
+
+.fil11 {
+    fill: #96989A
+}
+
+.fil13 {
+    fill: #F58634
+}
+
+.fil18 {
+    fill: #EC268F
+}
+
+.fil19 {
+    fill: #ED3237
+}
+
+.fil15 {
+    fill: #A8518A
+}
+
+.fil14 {
+    fill: #00AFEF
+}
+
+.fil16 {
+    fill: #00A859
+}
+
+.fil17 {
+    fill: #3E4095
+}
+
+.fil12 {
+    fill: #FFCC29
+}
+
+.fil20 {
+    fill: #373435;
+    fill-rule: nonzero
+}
+
+#svgMain {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#svgContainer {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 2225px;
+    overflow: hidden;
+    border: 1px solid gray;
+    box-shadow: 0px 4px 16px gray;
+    max-zoom: 65%;
+    zoom: 50%;
+    margin: 10px 0 10px;
+}
+
+.zoomed > #container:hover {
+    cursor: move;
+}
+
+.zoomed > #container > g:hover {
+    cursor: pointer;
+}
+
+text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.captcha-number {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+#container g.active > circle {
+    fill: #b3b3b3;
+    stroke: black;
+}
+
+#container g.active > text {
+    fill: black;
+}
+
+#container g > text {
+    fill: white;
+}
+
+.price-list .price {
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.price-list .price.sold {
+    background: #b3b3b3;
+    border: 2px solid #000;
+    color: black;
+}
